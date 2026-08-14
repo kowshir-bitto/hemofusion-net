@@ -1,0 +1,35 @@
+# HemoFusion-Net — ICH segmentation + detection study
+#
+# torch/torchvision must match the CUDA build of the target machine. If the
+# default PyPI wheel does not match your driver, install torch first from the
+# right index and then this file, e.g.
+#   pip install --index-url https://download.pytorch.org/whl/cu124 torch torchvision
+#
+# For the exact versions used in the reported run, see requirements-lock.txt.
+
+torch>=2.6
+torchvision>=0.21
+timm>=1.0.15
+
+numpy>=2.0
+scipy>=1.13
+pandas>=2.2
+scikit-learn>=1.5
+scikit-image>=0.24
+statsmodels>=0.14
+
+nibabel>=5.2
+opencv-python-headless>=4.10
+albumentations>=2.0
+Pillow>=10.0
+
+matplotlib>=3.9
+seaborn>=0.13
+openpyxl>=3.1
+tabulate>=0.9
+tqdm>=4.66
+pyyaml>=6.0
+
+# Optional — only for `python make_docx.py` and `pytest tests/`
+# python-docx>=1.1
+# pytest>=8.0

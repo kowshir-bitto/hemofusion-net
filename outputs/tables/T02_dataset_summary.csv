@@ -1,0 +1,17 @@
+statistic,value
+total_slices,2814.0
+patients,75.0
+hemorrhagic_slices,318.0
+non_hemorrhagic_slices,2496.0
+hemorrhagic_pct,11.3
+patients_with_ICH,36.0
+mean_slices_per_patient,37.52
+mean_lesion_px_on_positive,1096.7
+median_lesion_px_on_positive,620.0
+in_plane_spacing_mm_mean,0.5642
+slices_Intraventricular,24.0
+slices_Intraparenchymal,73.0
+slices_Subarachnoid,18.0
+slices_Epidural,173.0
+slices_Subdural,56.0
+slices_Fracture,196.0

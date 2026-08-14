@@ -1,0 +1,3 @@
+arm,encoders,params_M,val_dice_at_op,val_dice_best,val_dice_last5,val_dice_std_last10,val_auroc_best,val_loss_min,best_epoch,minutes
+slim_reg,resnet34+pvt_v2_b1,43.8,0.5147,0.4999,0.4493,0.0097,0.9325,0.7107,14,13.4
+slim_reg_pos70,resnet34+pvt_v2_b1,43.8,0.4908,0.4659,0.4566,0.0039,0.9392,0.6707,23,12.3

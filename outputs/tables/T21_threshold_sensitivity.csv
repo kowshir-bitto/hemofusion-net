@@ -1,0 +1,77 @@
+tag,display,threshold,dice
+unet,U-Net,0.05,0.5896794461570832
+unet,U-Net,0.1,0.59178368355235
+unet,U-Net,0.15,0.5929798885842974
+unet,U-Net,0.2,0.5940466097923285
+unet,U-Net,0.25,0.5951716463646941
+unet,U-Net,0.3,0.5961633818632294
+unet,U-Net,0.35,0.5969576275249551
+unet,U-Net,0.39999999999999997,0.5981972862888932
+unet,U-Net,0.44999999999999996,0.5998097188804926
+unet,U-Net,0.49999999999999994,0.61195425086698
+unet,U-Net,0.5499999999999999,0.6200118504774841
+unet,U-Net,0.6,0.620719095018711
+unet,U-Net,0.65,0.6210670492235552
+unet,U-Net,0.7,0.6214328035571881
+unet,U-Net,0.75,0.6215656694287458
+unet,U-Net,0.7999999999999999,0.6217954596063365
+unet,U-Net,0.85,0.621833165749478
+unet,U-Net,0.9,0.6219928322978081
+unet,U-Net,0.95,0.6224676247994216
+attention_unet,Attention U-Net,0.05,0.6118036925986503
+attention_unet,Attention U-Net,0.1,0.613684075232048
+attention_unet,Attention U-Net,0.15,0.6148931848811741
+attention_unet,Attention U-Net,0.2,0.6158496257328546
+attention_unet,Attention U-Net,0.25,0.6166896260715733
+attention_unet,Attention U-Net,0.3,0.6173383907268961
+attention_unet,Attention U-Net,0.35,0.6182457149642513
+attention_unet,Attention U-Net,0.39999999999999997,0.6190242860549175
+attention_unet,Attention U-Net,0.44999999999999996,0.6200438510576571
+attention_unet,Attention U-Net,0.49999999999999994,0.6225420347673368
+attention_unet,Attention U-Net,0.5499999999999999,0.6249991681580199
+attention_unet,Attention U-Net,0.6,0.625101160418269
+attention_unet,Attention U-Net,0.65,0.6253927756139215
+attention_unet,Attention U-Net,0.7,0.6256140043523556
+attention_unet,Attention U-Net,0.75,0.625762061180755
+attention_unet,Attention U-Net,0.7999999999999999,0.6257621279217724
+attention_unet,Attention U-Net,0.85,0.6260894432940503
+attention_unet,Attention U-Net,0.9,0.6258886965323722
+attention_unet,Attention U-Net,0.95,0.6256506421963436
+unetpp,U-Net++,0.05,0.6713531598024699
+unetpp,U-Net++,0.1,0.6719859664735713
+unetpp,U-Net++,0.15,0.6721577436661004
+unetpp,U-Net++,0.2,0.6724447927707525
+unetpp,U-Net++,0.25,0.6724399677887603
+unetpp,U-Net++,0.3,0.6726700101889183
+unetpp,U-Net++,0.35,0.6728208393013735
+unetpp,U-Net++,0.39999999999999997,0.6730931597732513
+unetpp,U-Net++,0.44999999999999996,0.6734493862878788
+unetpp,U-Net++,0.49999999999999994,0.6751499531075714
+unetpp,U-Net++,0.5499999999999999,0.675437701852337
+unetpp,U-Net++,0.6,0.6752982886747969
+unetpp,U-Net++,0.65,0.675288652045723
+unetpp,U-Net++,0.7,0.6753296545298056
+unetpp,U-Net++,0.75,0.6752082790041894
+unetpp,U-Net++,0.7999999999999999,0.6750569092267393
+unetpp,U-Net++,0.85,0.6748436648942886
+unetpp,U-Net++,0.9,0.6745654624802533
+unetpp,U-Net++,0.95,0.6742483187901724
+hemofusion,HemoFusion-Net (proposed),0.05,0.0016506621584091864
+hemofusion,HemoFusion-Net (proposed),0.1,0.0016434159542223607
+hemofusion,HemoFusion-Net (proposed),0.15,0.0016383685591717931
+hemofusion,HemoFusion-Net (proposed),0.2,0.0016336360540976532
+hemofusion,HemoFusion-Net (proposed),0.25,0.0015937928753995917
+hemofusion,HemoFusion-Net (proposed),0.3,0.0015873070202503238
+hemofusion,HemoFusion-Net (proposed),0.35,0.0015800851593429097
+hemofusion,HemoFusion-Net (proposed),0.39999999999999997,0.0015712777794914562
+hemofusion,HemoFusion-Net (proposed),0.44999999999999996,0.6480619454357059
+hemofusion,HemoFusion-Net (proposed),0.49999999999999994,0.6250803659259122
+hemofusion,HemoFusion-Net (proposed),0.5499999999999999,0.615168009060679
+hemofusion,HemoFusion-Net (proposed),0.6,0.6100916341282798
+hemofusion,HemoFusion-Net (proposed),0.65,0.6045128368676411
+hemofusion,HemoFusion-Net (proposed),0.7,0.5966754015074862
+hemofusion,HemoFusion-Net (proposed),0.75,0.5835617106745736
+hemofusion,HemoFusion-Net (proposed),0.7999999999999999,0.5791344276220216
+hemofusion,HemoFusion-Net (proposed),0.85,0.5739231855960065
+hemofusion,HemoFusion-Net (proposed),0.9,0.5656689368669858
+hemofusion,HemoFusion-Net (proposed),0.95,0.5483364272450056

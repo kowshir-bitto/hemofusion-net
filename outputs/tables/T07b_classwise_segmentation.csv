@@ -1,0 +1,41 @@
+model,class,n_slices,Dice,Dice_std,display,metric,IoU,IoU_std
+unet,Intraventricular,10,0.0707929576932523,0.12083236019549214,U-Net,Dice,,
+unet,Intraparenchymal,18,0.1491614563011296,0.24381034511973323,U-Net,Dice,,
+unet,Subarachnoid,9,0.05736180620000627,0.08342715870962197,U-Net,Dice,,
+unet,Epidural,34,0.44754755715492917,0.3985406232673401,U-Net,Dice,,
+unet,Subdural,8,0.3064703814843863,0.24935441081095872,U-Net,Dice,,
+attention_unet,Intraventricular,10,0.06680829584325068,0.11582810692297214,Attention U-Net,Dice,,
+attention_unet,Intraparenchymal,18,0.15812945235056783,0.24536506496272922,Attention U-Net,Dice,,
+attention_unet,Subarachnoid,9,0.05154753342224821,0.07765058332795413,Attention U-Net,Dice,,
+attention_unet,Epidural,34,0.4395710182024916,0.39279254005582026,Attention U-Net,Dice,,
+attention_unet,Subdural,8,0.2870880194646882,0.2932974976025276,Attention U-Net,Dice,,
+unetpp,Intraventricular,10,0.01698854034556687,0.04413146342600944,U-Net++,Dice,,
+unetpp,Intraparenchymal,18,0.09717110600240904,0.17434061864101807,U-Net++,Dice,,
+unetpp,Subarachnoid,9,0.03387910003968972,0.05441802955350788,U-Net++,Dice,,
+unetpp,Epidural,34,0.462707324144171,0.4042883639430957,U-Net++,Dice,,
+unetpp,Subdural,8,0.15597029491360956,0.27495526903362116,U-Net++,Dice,,
+hemofusion,Intraventricular,10,0.21371804664787447,0.23854108686048991,HemoFusion-Net (proposed),Dice,,
+hemofusion,Intraparenchymal,18,0.10923053766061053,0.20597264292790757,HemoFusion-Net (proposed),Dice,,
+hemofusion,Subarachnoid,9,0.07415891978623643,0.1229981924979251,HemoFusion-Net (proposed),Dice,,
+hemofusion,Epidural,34,0.3846630602198491,0.3905755416624515,HemoFusion-Net (proposed),Dice,,
+hemofusion,Subdural,8,0.44330900431567477,0.34817604440919286,HemoFusion-Net (proposed),Dice,,
+unet,Intraventricular,10,,,U-Net,IoU,0.04118545194969631,0.07175534324109352
+unet,Intraparenchymal,18,,,U-Net,IoU,0.10574506292766388,0.19246265447947275
+unet,Subarachnoid,9,,,U-Net,IoU,0.03154013356467825,0.04689019712998148
+unet,Epidural,34,,,U-Net,IoU,0.3800746689166471,0.3604868840960495
+unet,Subdural,8,,,U-Net,IoU,0.20666748241297686,0.17572666664536243
+attention_unet,Intraventricular,10,,,Attention U-Net,IoU,0.03865003841676186,0.06834181632207276
+attention_unet,Intraparenchymal,18,,,Attention U-Net,IoU,0.11035503829737037,0.1851060241826881
+attention_unet,Subarachnoid,9,,,Attention U-Net,IoU,0.028190778077649446,0.04356890881966843
+attention_unet,Epidural,34,,,Attention U-Net,IoU,0.3697219364686468,0.35268677923113123
+attention_unet,Subdural,8,,,Attention U-Net,IoU,0.20383326138930752,0.21222904055018116
+unetpp,Intraventricular,10,,,U-Net++,IoU,0.009097138166929156,0.02382056470824774
+unetpp,Intraparenchymal,18,,,U-Net++,IoU,0.061642174587509944,0.11578303860648244
+unetpp,Subarachnoid,9,,,U-Net++,IoU,0.01804107835836658,0.029254128919228902
+unetpp,Epidural,34,,,U-Net++,IoU,0.39730942164918126,0.3694804737749517
+unetpp,Subdural,8,,,U-Net++,IoU,0.11536283887859769,0.20707724484799292
+hemofusion,Intraventricular,10,,,HemoFusion-Net (proposed),IoU,0.1417004780243824,0.16603146689329526
+hemofusion,Intraparenchymal,18,,,HemoFusion-Net (proposed),IoU,0.07464257048032273,0.1561130539583593
+hemofusion,Subarachnoid,9,,,HemoFusion-Net (proposed),IoU,0.043256705359193764,0.07447789734199355
+hemofusion,Epidural,34,,,HemoFusion-Net (proposed),IoU,0.3212260354251743,0.3468874063975937
+hemofusion,Subdural,8,,,HemoFusion-Net (proposed),IoU,0.3466285928242441,0.2777504078333289

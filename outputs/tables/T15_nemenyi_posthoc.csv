@@ -1,0 +1,7 @@
+model_a,model_b,rank_diff,critical_difference,significant,display_a,display_b
+unet,attention_unet,0.2708333333333335,0.5527607898003807,False,U-Net,Attention U-Net
+unet,unetpp,0.20833333333333348,0.5527607898003807,False,U-Net,U-Net++
+unet,hemofusion,0.13194444444444464,0.5527607898003807,False,U-Net,HemoFusion-Net (proposed)
+attention_unet,unetpp,0.47916666666666696,0.5527607898003807,False,Attention U-Net,U-Net++
+attention_unet,hemofusion,0.13888888888888884,0.5527607898003807,False,Attention U-Net,HemoFusion-Net (proposed)
+unetpp,hemofusion,0.3402777777777781,0.5527607898003807,False,U-Net++,HemoFusion-Net (proposed)

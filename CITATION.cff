@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+title: >-
+  HemoFusion-Net: A Hybrid CNN-Transformer Network for Intracranial
+  Hemorrhage Segmentation and Detection
+message: >-
+  If you use this software, please cite both this repository and the
+  underlying PhysioNet CT-ICH dataset.
+type: software
+# Risha and Abu Kowshir Bitto contributed equally and are joint first authors.
+authors:
+  - given-names: Risha
+  - given-names: Abu Kowshir
+    family-names: Bitto
+repository-code: 'https://github.com/kowshir-bitto/hemofusion-net'
+abstract: >-
+  A reproducible study on the PhysioNet CT-ICH cohort (75 patients, 2,814
+  annotated axial slices, 318 hemorrhagic). HemoFusion-Net fuses a
+  ResNet-34 CNN stream and a PVTv2-B1 transformer stream bidirectionally at
+  every scale, decoding through an attention-gated U-Net with a multi-rate
+  dilated bottleneck and deep supervision, and learns slice-level detection
+  jointly with delineation. The pipeline produces the full model
+  comparison, paired statistical tests, ablation grid and quantified
+  Grad-CAM explainability analysis from a single command.
+keywords:
+  - intracranial hemorrhage
+  - medical image segmentation
+  - computed tomography
+  - vision transformer
+  - convolutional neural network
+  - explainable AI
+license: MIT
+version: 1.0.0
+date-released: '2026-08-14'
+references:
+  - type: data
+    title: >-
+      Computed Tomography Images for Intracranial Hemorrhage Detection and
+      Segmentation
+    version: 1.3.1
+    year: 2020
+    doi: 10.13026/4nae-zg36
+    url: 'https://physionet.org/content/ct-ich/'
+    publisher:
+      name: PhysioNet
+    authors:
+      - family-names: Hssayeni
+        given-names: Murtadha D.
+      - family-names: Croock
+        given-names: M. S.
+      - family-names: Salman
+        given-names: A. D.
+      - family-names: Al-khafaji
+        given-names: H. F.
+      - family-names: Yahya
+        given-names: Z. A.
+      - family-names: Ghoraani
+        given-names: Behnaz

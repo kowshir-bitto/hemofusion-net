@@ -1,0 +1,8 @@
+class,slices,slice_pct,patients,mean_lesion_px,median_lesion_px
+Intraventricular,24,0.85,5,1051.1,444.0
+Intraparenchymal,73,2.59,16,981.2,464.0
+Subarachnoid,18,0.64,7,1353.0,798.0
+Epidural,173,6.15,21,930.3,604.0
+Subdural,56,1.99,4,2045.0,1526.0
+Skull fracture,196,6.97,22,880.0,551.0
+No hemorrhage,2496,88.7,75,0.0,0.0

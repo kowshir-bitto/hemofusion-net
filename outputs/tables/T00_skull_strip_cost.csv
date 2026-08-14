@@ -1,0 +1,10 @@
+statistic,value
+annotated slices analysed,318
+lesion pixels total,619911.0
+slices where the skull ring leaked (no strip possible),74
+% slices where the ring leaked,23.27
+lesion pixels retained if stripping is forced (%),98.75
+slices losing >5% of lesion if stripping is forced,35
+slices losing >25% of lesion if stripping is forced,6
+worst-case slice lesion retention (%),0.0
+decision,skull stripping disabled by default; retained as ablation A13
